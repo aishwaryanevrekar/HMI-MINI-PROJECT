@@ -1,0 +1,71 @@
+#homepage {
+	background-color: wheat;
+	width: 800px;
+	font-size: 16px;
+	height: 600px;
+}
+
+.jumbotron 
+{
+	background-color:wheat;
+	margin-bottom: 0px;
+}
+.jumbotron h1
+{
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	color: black;
+	font-size: 50px;
+	
+}
+.jumbotron h1::after
+{
+	content:'';
+	background-color:palevioletred;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 10px auto 5px;
+}
+.jumbotron p
+{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	color: black;	
+}
+#content
+{
+	padding-top: 0px;
+	background-image: url(home.jpg);
+}
+.container 
+{
+	
+	background-color: wheat!important;
+	color: black !important;
+	border-radius: 2px;
+}
+.container h1
+{
+	padding-top: 20px;
+	font-family: sans-serif;
+	text-align: center;
+	background-color: wheat;
+	color: black !important;
+	border-radius: 2px;
+	border: 10px;
+}
+
+.container h1::after
+{
+	content:'';
+	background-color:palevioletred;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 10px auto 5px;
+}
+

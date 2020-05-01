@@ -1,0 +1,47 @@
+#signin {
+	background-color: #3366cc;
+	width: 800px;
+	color: #fff;
+	height: 450px;
+}
+#signin a {
+	color: #33ff00;
+}
+#main {
+	
+	width: 700px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.jumbotron 
+{
+	background-color:wheat;
+	margin-bottom: 0px;
+}
+.jumbotron h1
+{
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	color: black;
+	font-size: 50px;
+	
+}
+.jumbotron h1::after
+{
+	content:'';
+	background-color:palevioletred;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 10px auto 5px;
+}
+.jumbotron p
+{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	color: black;	
+}
